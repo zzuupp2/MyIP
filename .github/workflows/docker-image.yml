@@ -36,6 +36,6 @@ jobs:
       with:
         push: true
         tags: |
-          jason5ng32/myip:latest
+          dockerzup/myip:latest
           ghcr.io/${{ github.repository_owner }}/myip:latest
         platforms: linux/amd64,linux/arm64
